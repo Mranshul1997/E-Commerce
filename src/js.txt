@@ -1,0 +1,15 @@
+import React, { useState, useEffect } from "react";
+
+
+function App() {
+  
+
+  return (
+    <>
+      <div>{entry ? <Entry /> : login && <Login />}</div>
+      <Signup />
+    </>
+  );
+}
+
+export default App;
